@@ -1,0 +1,92 @@
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .logo {
+            flex: 1;
+        }
+
+        .vImage {
+            width: 627px;
+            height: 782.7px;
+            top: 170px;
+            left: 1048px;
+        }
+
+        .trend {
+            width: 374px;
+            height: 45px;
+            top: 407px;
+            left: 100px;
+            font-family: Poppins;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 45px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .doubt {
+            width: 910px;
+            height: 230px;
+            top: 465px;
+            left: 100px;
+            font-family: Poppins;
+            font-size: 48px;
+            font-weight: 300;
+            line-height: 72px;
+            letter-spacing: 0.1em;
+            text-align: left;
+        }
+
+        .buy {
+            width: 102px;
+            height: 36px;
+            top: 774px;
+            left: 147px;
+            border: 1px;
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 36px;
+            letter-spacing: 0em;
+            text-align: left;
+            background: linear-gradient(0deg, #231212, #231212),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+            border: 1px solid #231212;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center
+          }
+
+        .navigation {
+            flex: 2;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .user-actions {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        button {
+            margin-left: 10px;
+        }
+    </style>
